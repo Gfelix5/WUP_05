@@ -57,7 +57,8 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
-The first plot shows how many people got infected. In the aids plot less 100 people got infected in each category, drug and placebo. In the percentage plot we see the placebo is at 70 percent, the drug category is 22 percent. 70 percentof the placebo tells us that the drug is working. 
+
+The first plot shows how many people got infected. In the aids plot less 100 people got infected in each category, drug and placebo. The percentage plot puts our result into percentage terms. In the percentage plot we see the placebo is at 70%, the drug category is 25%. 70 percent of the placebo tells us that the drug is working. 
 
 ### Numerical Descriptive Results
 
